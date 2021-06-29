@@ -1,0 +1,8 @@
+{
+    "apiUrl": "https://api.senorpreston.com/",
+    "apiUrl_dev": "http://localhost:3001/",
+    "fb_appId": "526272074800572",
+    "fb-api-version": "v4.0",
+    "google-client-secret": "Zcjsgl9baVt_Kd4wPpBZVTIz",
+    "google-client-id": "751928188461-dp8pp76dmafrah2tmgptjpbl7dvopttc.apps.googleusercontent.com"
+}

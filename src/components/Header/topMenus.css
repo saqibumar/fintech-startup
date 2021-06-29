@@ -1,0 +1,39 @@
+
+a{
+    color: #8d8d8d !important;
+  }
+  
+  /* a:hover{
+    color: #FFF !important;
+  }
+  a:active{
+    color: red !important;
+  }
+   */
+  .userName{
+    position: absolute !important; 
+    /* top:121px !important; 
+    left:60px !important; */
+    color: #8d8d8d !important;
+  }
+
+ /*  .navbar-nav{
+    text-align: left;
+  } */
+
+.ReactModal__Overlay--after-open{
+  z-index: 9999 !important;
+/*   background-image: linear-gradient(to bottom, #00a950 10%, #3350B9 100%) !important;
+ */  background-image: linear-gradient(to bottom, #3350B9 0%, #00a950 50%, rgba(255, 255, 255, 0.75) 50%, transparent 50%) !important
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transform: translateY(-500px);
+  transition: all 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+  transform: translateX(0px);
+}

@@ -1,0 +1,15 @@
+.bgBar {
+    background-color: #009789;
+    padding: 10px 14px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+}
+
+.reset-box{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    max-width: 600px;
+    margin: 0 auto;
+}

@@ -1,0 +1,37 @@
+.kibjRx{
+    background-color: gray !important;
+}
+.jTcbqF {
+    color:black !important;
+}
+.fqREXu {
+    background-color: red !important;
+}
+.MuiIconButton-colorPrimary {
+    color: red !important;
+}
+.kBBejf {
+    
+    background-color: #336688 !important;
+}
+.rdt_TableHeadRow .rdt_TableCol >input{
+    display:none;
+
+}
+.rdt_ExpanderRow{
+    background-color: white !important;
+    color: black !important;
+    padding: 10px;
+}
+
+.rdt_ExpanderRow a{
+    color: lightcoral !important;
+}
+.container_expanded{
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.csvLink{
+    color: white !important;
+}

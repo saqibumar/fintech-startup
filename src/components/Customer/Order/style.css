@@ -1,0 +1,52 @@
+.customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  
+  .customers td, .customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .customers tr:hover {background-color: lightyellow;}
+  
+  .customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: silver;
+    color: white;
+    font-size: 0.8rem;
+  }
+
+  .customers thead {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: white;
+    color: black;
+    font-size: 0.8rem;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  .customers thead tr:hover {background-color: transparent;}
+  
+  .customers thead tr:nth-child(even){background-color: transparent;}
+
+  .customers thead tr:nth-last-child td{
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+
+  .customers thead tr td:first-child{
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }

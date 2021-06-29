@@ -1,0 +1,80 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.row{
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+/* #212221#1181B2#DDEDF4#44449B */
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* media styles */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media screen and (max-width: 767px){
+.recharts-surface{
+  width:399px !important;
+}
+}
+
+
+@media screen and (max-width: 540px){
+ .recharts-surface{
+   width:350px !important;
+ }
+ }
+
+ 
+@media screen and (max-width: 500px){
+  .recharts-surface{
+    width:250px !important;
+  }
+  }
+
+  
+@media screen and (max-width: 402px){
+  .recharts-surface{
+    width:200px !important;
+  }
+  }
+
+  .recharts-legend-item{
+    width:350px;
+  }
+/* end media styles */
+
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:400,700|Material+Icons');
+
+button:disabled {
+  background: transparent !important;
+  cursor: default;
+}

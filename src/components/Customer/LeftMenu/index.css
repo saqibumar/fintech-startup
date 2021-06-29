@@ -1,0 +1,50 @@
+.navbar {
+    padding: 0px !important;
+    background-color: #EFEFEF;
+    text-align: left;
+}
+
+.navbar-toggler {
+    border: 0px !important;
+}
+
+.hQVgAr{
+    background-color: transparent !important;
+}
+
+.responsive-logo{
+    width: 100% !important;
+}
+
+@media screen and (max-width: 991px){
+    
+.hQVgAr{
+    position: relative !important;
+    /* background: url(/images/Customer/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-position: left; */
+    width: 100% !important;
+}
+.Short-Width-Menu{
+    width: 100%;
+    background-color: #EFEFEF;
+    position: relative;
+}
+.responsive-logo{
+    width: auto !important;
+    max-height: 42px;
+}
+.navbar{
+    /* display: block; */
+    /* position: absolute; */
+    display: inline-table;
+    top:0;
+    right:0;
+}
+  
+footer {
+    position: fixed !important;
+}
+}

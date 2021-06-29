@@ -1,0 +1,56 @@
+.kibjRx{
+    background-color: gray !important;
+}
+.jTcbqF {
+    color:black !important;
+}
+.fqREXu {
+    background-color: red !important;
+}
+.MuiIconButton-colorPrimary {
+    color: red !important;
+}
+.kBBejf {
+    
+    background-color: #336688 !important;
+}
+.rdt_TableHeadRow .rdt_TableCol >input{
+    display:none;
+
+}
+.rdt_ExpanderRow{
+    background-color: white !important;
+    color: black !important;
+    padding: 10px;
+}
+
+.rdt_ExpanderRow a{
+    color: lightcoral !important;
+}
+.container_expanded{
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.MuiPaper-root a{
+    color:blue !important;
+}
+.MuiPaper-root a:hover{
+    color:red !important;
+}
+
+@media (min-width: 992px)
+{
+    .col{
+        padding: 0;
+    } 
+    .col-lg-3 {
+        flex: 0 0 25%;
+        max-width: 100%;
+        padding: 0;
+    }
+    .col-lg-12  {
+    padding: 0;
+}
+  
+}

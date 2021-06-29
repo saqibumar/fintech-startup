@@ -1,0 +1,200 @@
+.bgImg {
+    background-image: url('/images/banner/4.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 64px;
+    text-align: center;
+    min-height: 400px;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+  /* transform: scale(1.1); */
+}
+
+.blur {
+  background:url('/images/Homepage/header-1.jpg') no-repeat top;
+  /* background-size:cover; */
+  /* -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px); */
+  position:absolute;
+  width:100%;
+  min-height:80vh;
+  padding-bottom: 64px;
+  text-align: left;
+  animation: bg-anim 4s;
+}
+
+
+/* media styles */
+@keyframes bg-anim {
+  from {
+    transform: scale(1.0);
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+  }
+  to {
+    transform: scale(1.0);
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+  }
+}
+
+span {
+  text-align: right;
+  /* color:blue; */
+  /* font-size:50px; */
+  /* font-weight:bold; */
+  position:relative;
+  /* position:absolute; */
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -o-filter: blur(0px);
+  -ms-filter: blur(13px);
+  filter: blur(0px);
+}
+
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:absolute;
+   width: 100%;
+}
+#header {
+   /* background:#1181B2; */
+   /* background: linear-gradient(to right, rgba(17,129,178,1) 0%, rgba(0,177,255,1) 100%); */
+   background: linear-gradient(to right, #EFEFEF 0%, #EFEFEF 100%);
+   /* padding:10px; */
+   color: #DDEDF4 !important;
+}
+#body {
+   /* padding:10px; */
+   /* background: linear-gradient(to right, #DDEDF4 0%, rgb(87,169,181) 100%); */ /* #DDEDF4; */
+   padding-bottom:64px;   /* Height of the footer */
+   min-height: 100vh;
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:64px;   /* Height of the footer */
+   /* background:#44449B; */
+   /* color: antiquewhite;
+   background: linear-gradient(to right, rgba(125, 38, 240, 0.877) 0%, rgba(68,68,155,1) 100%); */
+}
+/* 
+.input-range__track {
+  background: #3f51b5 !important;
+}
+.input-range__track--active {
+  background: red !important;
+}
+.input-range__label-container{
+  color: dodgerblue !important;
+} */
+
+
+
+
+@media screen and (max-width: 767px){
+  .blur {
+    background:url('/images/Homepage/header-1.jpg') no-repeat center;
+    background-size:cover;
+    /* -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px); */
+    position:absolute;
+    width:100%;
+    min-height:80vh;
+    padding-bottom: 64px;
+    text-align: left;
+  }
+
+  .calculator-container{
+    margin-left: 0px;
+    width: 100%;
+}
+
+  }
+  
+  
+  @media screen and (max-width: 540px){
+    .blur {
+      background:url('/images/Homepage/header-1.jpg') no-repeat center;
+      background-size:cover;
+      /* -webkit-filter: blur(4px);
+      -moz-filter: blur(4px);
+      -o-filter: blur(4px);
+      -ms-filter: blur(4px);
+      filter: blur(4px); */
+      position:absolute;
+      width:100%;
+      min-height:80vh;
+      padding-bottom: 64px;
+      text-align: left;
+    }
+   }
+  
+   
+  @media screen and (max-width: 500px){
+    
+    .blur {
+      background:url('/images/Homepage/header-1.jpg') no-repeat center;
+      background-size:cover;
+      /* -webkit-filter: blur(6px);
+      -moz-filter: blur(6px);
+      -o-filter: blur(6px);
+      -ms-filter: blur(6px);
+      filter: blur(6px); */
+      position:absolute;
+      width:100%;
+      min-height:80vh;
+      padding-bottom: 64px;
+      text-align: left;
+    }
+    }
+  
+    
+  @media screen and (max-width: 402px){
+    .blur {
+      background:url('/images/Homepage/header-1.jpg') no-repeat center;
+      background-size:cover;
+      /* -webkit-filter: blur(2px);
+      -moz-filter: blur(2px);
+      -o-filter: blur(2px);
+      -ms-filter: blur(2px);
+      filter: blur(2px); */
+      position:absolute;
+      width:100%;
+      min-height:80vh;
+      padding-bottom: 64px;
+      text-align: left;
+    }
+
+  }
+
+
+.calculator-container{
+    /* background: linear-gradient(to right, rgb(102,182,193) 0%, transparent 100%); */
+    padding-top: 0px;
+    /* margin-left: 0px; */
+    padding-bottom: 0px;
+    /* max-width: 350px; */
+    margin: 0;
+}

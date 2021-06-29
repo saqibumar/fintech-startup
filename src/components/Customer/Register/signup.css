@@ -1,0 +1,40 @@
+
+.signupForm {
+	max-width: 500px;
+    margin: auto;
+    padding: 20px 20px 0px 20px;
+}
+
+.has-error .form-control {
+    border-color: #a94442;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+.formErrors{
+    color: #a94442;
+}
+
+.my-facebook-button-class{
+    font-size: 10px;
+    background-color: #a94442
+}
+
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #495057 !important;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.signupForm a {
+    color: #007bff !important;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.signupForm a:hover {
+    color: #007bff !important;
+    text-decoration: none;
+    background-color: transparent;
+}
+

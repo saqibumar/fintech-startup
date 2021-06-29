@@ -1,0 +1,25 @@
+.demo-image-preview {
+    position: relative;
+    text-align: center;
+  }
+  
+  .demo-image-preview > a > img {
+    width: 100px;
+  }
+  .demo-image-preview > ModalImage {
+    max-width: 100px;
+  }  
+  @media(max-width:768px){
+    .demo-image-preview > img {
+      width: 100%;
+    }
+    .demo-image-preview > ModalImage {
+      width: 100%;
+    }  
+  }
+  
+  /* fullscreen enable by props */
+  .demo-image-preview-fullscreen > img {
+    width: 100vw;
+    height:100vh;
+  }
